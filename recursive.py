@@ -1,15 +1,19 @@
 # factorial
 
-def
+def factorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * factorial(n-1)
 
 
 
 
 def main():
 
-    numero = int(input("Introduce numero"))
+    numero = int(input("Introduce numero: "))
 
-    print("El factorial del ",numero,"es :",factorial(numero))
+    print("El factorial del ", numero, "es :", factorial(numero))
 
 
 
